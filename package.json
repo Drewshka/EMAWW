@@ -1,0 +1,23 @@
+{
+  "name": "emaww",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js -e js ./XML/config.xml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "ioredis": "^5.2.2",
+    "redis": "^4.2.0",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
